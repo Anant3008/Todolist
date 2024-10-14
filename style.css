@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Playwrite+DE+Grund:wght@100..400&display=swap');
+
+*{
+    margin: 0px;
+    color: white;
+    font-family: Fredoka;
+}
+
+html,body{
+    height: 100%;
+    margin: 0px;
+}
+
+body{
+    background: url(assests/wallpaperflare.com_wallpaper\ \(5\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.main{
+    margin-top: 150px;
+}
+.heading , .input-cont{
+    text-align: center;
+}
+.heading h1{
+    font-size: 80px;
+}
+.input-cont{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.input-cont .add{
+    height: 50px;
+    width: 80px;
+    background-color: rgb(34, 14, 56);
+    cursor: pointer;
+    margin-right: 0;
+}
+.input-cont input{
+    background-color: rgb(54, 21, 61);
+    border: 0px;
+    border-radius: 5px;
+    margin-right: 10px;
+    color: rgb(148, 136, 145);
+}
+.input-cont button{
+    border: 0px;
+    border-radius: 5px;
+}
+.task{
+    height: 50px;
+    width: 500px;
+    padding-left: 20px;
+    font-size: 25px;
+}
+.date{
+    height: 50px;
+}
+
+.output-cont{
+    margin-top: 50px;
+    border: 2px solid white;
+    box-shadow: 15px 15px 15px rgba(173, 54, 173, 0.438);
+    font-size: 20px;
+    text-align: center;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 350px 200px 204px;
+}
+
+.delete-button{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.output-span{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
